@@ -23,7 +23,6 @@ class AViewController: UIViewController {
     let label = UILabel()
     let button = UIButton()
     
-    
     func mainLabel() {
         super.viewDidLoad()
          label.frame = CGRect(x: 120, y: 200, width: 200, height: 200)
