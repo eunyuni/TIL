@@ -1,7 +1,4 @@
-## 191126 과제
-
-
-### text field 기능
+## 191126 text field 기능
 
 
 ```swift
