@@ -89,9 +89,11 @@ class ViewController: UIViewController {
 
 }
 }
-
 ```
 ![](https://user-images.githubusercontent.com/57210827/69616152-721fdf00-1079-11ea-9201-d5307c9ad248.png)
+
+* ID 6글자이상 입력시 키보드내려감
+* PW 비밀번호 암호처리
 
 ### Tag 사용
 * 텍스트 필드가 여러개일때 매번 메서드를 연결하기 어렵기에 컨드롤해서 함수안으로 끌어갈수있다.
