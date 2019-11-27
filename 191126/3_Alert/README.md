@@ -45,6 +45,7 @@ class ViewController: UIViewController {
                 }
             alertController.addAction(addCountButton)
 
+      // Reset 창 만듬
         let resetButton = UIAlertAction(
           title: "Reset", style: .destructive) {
           _ in self.count = 0
@@ -52,14 +53,15 @@ class ViewController: UIViewController {
         }
         alertController.addAction(resetButton)
 
+      // Cencel 창 만듬
         let cencelButton = UIAlertAction ( 
          title: "Cencel", style: .cancel) 
       	//{ (action) in print("OK버튼") }
         alertController.addAction(cencelButton)
 
+      // 
         present(alertController, animated: true)
 
     }
 }
 ```
-
