@@ -46,3 +46,9 @@ override func viewDidLoad() {
 }
 ```
 
+
+
+* 싱글톤과제
+* 싱글톤방식으로 텍스트필드의 값을 전달, 일반방식으로 전달
+
+![1206과제](https://tva1.sinaimg.cn/large/006tNbRwgy1g9pgkqh328j30u00uuk34.jpg)
