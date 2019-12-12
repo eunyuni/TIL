@@ -47,8 +47,12 @@ class SecondViewController: UIViewController {
         dismiss(animated: true)
     }
     
-    
-    
+}
 
-
+class Data {
+static let text = ""
+    
+    private init() {
+    }
+    
 }
