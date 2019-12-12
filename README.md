@@ -47,6 +47,6 @@ Today I Learned..
 ## 6주차
 
 * 191209 ARC  /  Struct
-* 191210 CustomView, Delegate
+* 191210 [CustomView, Delegate](https://github.com/eunyuni/TIL/tree/master/191210)
 * 191212 [AutoLayout (1)](https://github.com/eunyuni/TIL/tree/master/191212)
 * 191213 로그인 페이지
