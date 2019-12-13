@@ -39,7 +39,7 @@ Today I Learned..
 ## 5주차
 
 * 191202시험 문제 QnA / 면담
-* 191203 Storyboard / Segue
+* 191203 [Storyboard / Segue](https://github.com/eunyuni/TIL/tree/master/191203/segue)
 * 191204 자습
 * 191205 생성자, 타입 캐스팅
 * 191206 UserDefaults, Singleton
