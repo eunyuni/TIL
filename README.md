@@ -3,7 +3,7 @@ Today I Learned..
 
 ## 0주차
 
-* 191101 사전과제
+* 191101 [사전과제](https://github.com/eunyuni/TIL/tree/master/191101)
 
 ## 1주차
 
