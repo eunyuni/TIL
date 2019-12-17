@@ -7,9 +7,11 @@ Today I Learned..
 
 ## 1주차 (컴퓨터 개론)
 
-* 191104 컴퓨터개론
-* 191105 Terminal / Git 소개
-* 191106 (자습)함수기본, 고급
+* 191104 컴퓨터개론, 
+[과제: 진법, 연산개념, 네이밍컨벤션](https://github.com/eunyuni/TIL/tree/master/191104)
+* 191105 Terminal / Git 소개, 
+[과제: 터미널,vim,git,Zsh](https://github.com/eunyuni/TIL/tree/master/191105), [컬렉션타입 예습](https://github.com/eunyuni/TIL/blob/master/191105/191105_%EC%BB%AC%EB%A0%89%EC%85%98%ED%83%80%EC%9E%85(Array%2C%20Dictionary%2C%20Set).playground/Contents.swift)
+* 191106 자습 / [함수기본](https://github.com/eunyuni/TIL/tree/master/191106/191106_%ED%95%A8%EC%88%98%EA%B8%B0%EB%B3%B8.playground), [함수고급](https://github.com/eunyuni/TIL/blob/master/191106/191106_%ED%95%A8%EC%88%98%EA%B3%A0%EA%B8%89.playground/Contents.swift)
 * 191107 사전 지식 체크 / 유틸리티 설치 / 조 구성
 * 191108 자료형, 기본 연산자, 함수
 
