@@ -12,12 +12,14 @@ extension ThreeTableViewSection: UITableViewDataSource {
         appleDict.count
     }
     
+  
 // 섹션의 행의 갯수를 반환 inSection의 row를 number만큼?..?응 그런거임 ㅇㅇ
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let key = applelist[section]
         return appleDict[key]!.count
     }
     
+  
 // 행을 cell로 가져오기(?)
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CellID", for: indexPath)
@@ -28,6 +30,7 @@ extension ThreeTableViewSection: UITableViewDataSource {
         return cell
     }
     
+  
 // 섹션의 각 타이틀 지정...ㄷ점랴ㅐㄷㅈ머ㅑㅐ럼ㄴ야ㅐㄹ ㅠㅠ 졸래어려움!
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         applelist[section]
