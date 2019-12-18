@@ -57,6 +57,7 @@ Today I Learned..
 ## 7주차 (TableView, 계산기 앱)
 * 191216 AutoLayout (2), [stack연습](https://github.com/eunyuni/TIL/tree/master/191216)
 * 191217 [TableView](https://github.com/eunyuni/TIL/tree/master/191217)
+* 191218 [TableView연습](https://github.com/eunyuni/TIL/tree/master/191218)
 * 191219 TableView Cell
 * 191229 계산기 구현
 
