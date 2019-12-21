@@ -20,7 +20,7 @@ Today I Learned..
 
 * 191111 조건문, 반복문, 제어 이전, [과제: 함수](https://github.com/eunyuni/TIL/tree/master/191111)
 * 191112 (자습)함수과제
-* 191113 Collection Types
+* 191113 Collection Types[과제](https://github.com/eunyuni/TIL/tree/master/191113)
 * 191114 Enumeration, 옵셔널
 * 191115 Code Snippet, Closure 기초, QnA
 
