@@ -22,7 +22,7 @@ Today I Learned..
 * 191112 (자습)함수과제
 * 191113 [과제: Collection Type](https://github.com/eunyuni/TIL/tree/master/191113)
 * 191114 Enumeration, 옵셔널[과제: Enum,Optional](https://github.com/eunyuni/TIL/tree/master/191114)
-* 191115 Code Snippet, Closure 기초, QnA
+* 191115 Code Snippet, Closure 기초, QnA [Closure예시](https://github.com/eunyuni/TIL/tree/master/191115)
 
 ## 3주차 (OOP 기본 개념, Hello World)
 
