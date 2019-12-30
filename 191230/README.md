@@ -1,6 +1,6 @@
 # 191230
 
-
+## uialert 예습
 
 1. UIAlertController 버튼
 2. UIImage
@@ -46,6 +46,7 @@ class ViewController: UIViewController {
 }
 ```
 
+## Basic 함수 복습
 ```swift
 
 import UIKit
