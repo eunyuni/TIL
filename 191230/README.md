@@ -174,4 +174,94 @@ case (let x, let y):
     print("---> 점이 y 축에있음 x:\(x), y:\(y)")
 }
 
+
+//param 1개
+// 숫자를 입력받아 10을 곱해서 출력한다.
+func multipleTen(num: Int) -> Int {
+    var sum = 0
+    sum = num * 10
+    return sum
+}
+multipleTen(num: 3)
+
+func printmultipleOfTen(value: Int) {
+    print("\(value) * 10 = \(value * 10)")
+}
+printmultipleOfTen(value: 5)
+
+//param 2개
+//물건값과 갯수를 입력으로 주면 전체 금액을 출력하는 함수
+func printTotalPrice(price: Int, count: Int) {
+    print("계산하실 금액은 \(price * count) 입니다.")
+}
+printTotalPrice(price: 10000, count: 3)
+
+func totalPrice(price: Int, count: Int) -> Int {
+    let totalPrice = price * count
+    return totalPrice
+}
+
+let totaltotal = totalPrice(price: 10000, count: 4)
+print("totalprice: \(totaltotal)")
+
+/*************************************
+ 1. 성, 이름을 받아서 full name을 출력하는 함수
+ 
+ 2. 1번함수인데 파라미터 이름을 제거하고 full name출력하는 함수만들기
+ 
+ 3. 성, 이름을 받아서 full name return하는 함수 만들기
+ *************************************/
+
+// 1
+
+func printName(성: String, 이름: String) {
+    print("제 이름은 \(성 + 이름) 입니다.")
+}
+// 2
+func printName(_ 성: String,_ 이름: String) {
+    print("제 이름은 \(성 + 이름) 입니다.")
+}
+// 3
+func printName2(_ 성: String,_ 이름: String) -> String {
+    let fullname = 성 + " " + 이름
+    return fullname
+}
+
+printName(성: "김", 이름: "은영")
+printName("황", "정덕")
+printName2("김", "주똥")
+
+// in - out paramter
+
+var value = 3
+
+func incrementAndPrint(_ value: inout Int) {
+    value += 1
+    print(value)
+}
+
+incrementAndPrint(&value)
+
+// Function as a variable
+
+func add(_ a: Int, _ b: Int) -> Int{
+    return a + b
+}
+
+func subtract(_ a: Int, _ b: Int) -> Int{
+    return a - b
+}
+
+var function = add
+function(4, 5)
+function = subtract
+function(5, 4)
+
+func printResult(_ function: (Int, Int) -> Int, _ a: Int, _ b: Int) {
+    let result = function(a, b)
+    print(result)
+}
+printResult(add, 7, 4)
+printResult(subtract, 7, 4)
+
 ```
