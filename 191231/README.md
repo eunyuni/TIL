@@ -92,3 +92,170 @@ printNickName(name: "eunyuniii") // eunyuniii
 printNickName(name: nil) // 닉네임을 만들어봐~
 
 ```
+
+
+
+## Collection 복습
+
+1. Array
+2. Dictionary
+3. Set
+
+```swift
+/********
+ Array
+*********/
+
+var evenNumbers: [Int] = [2, 4, 6, 8]
+let evenNumbers2: Array<Int> = [1, 2, 3, 4]
+
+evenNumbers.append(10)
+
+evenNumbers += [12, 13, 16, 18]
+
+// 값이 비어있는지 확인
+evenNumbers.isEmpty
+
+//evenNumbers = []
+//evenNumbers.isEmpty
+
+evenNumbers.count
+
+//print(evenNumbers.first)
+
+if let firstElement = evenNumbers.first {
+    print("---first item is \(firstElement)---")
+}else{
+    print("없쪄용")
+}
+
+evenNumbers.min()
+evenNumbers.max()
+
+// 1번째 array값을 저장
+var secondElement = evenNumbers[1]
+// var twentithElement = evenNumbers[20] // 에러
+
+let firstThree = evenNumbers[0...2]
+
+// 값이 있음을확인
+evenNumbers.contains(3)
+// 3이있냐 // false
+evenNumbers.contains(4)
+// 4가있냐 // true
+
+
+evenNumbers
+evenNumbers.insert(0, at: 0)
+
+//evenNumbers.removeAll()
+
+evenNumbers.remove(at: 0)
+evenNumbers
+
+
+
+// 값의 변경
+evenNumbers[0] = -2
+evenNumbers
+
+evenNumbers[0...2] = [-2, 0, 2]
+evenNumbers
+
+// 값끼리 변경
+//evenNumbers.swapAt(1, 2)
+
+
+for num in evenNumbers {
+    print(num)
+}
+
+for (index, num) in evenNumbers.enumerated() {
+    print("index: \(index), num: \(num)")
+}
+
+// 3개의 배열없애기
+let firstThreeRemoved = evenNumbers.dropFirst(3)
+firstThreeRemoved
+
+// 마지막 배열없애기
+let lastRemoved = firstThreeRemoved.dropLast()
+lastRemoved
+
+// 앞에서부터 배열가져오기
+let firstThrees = evenNumbers.prefix(3)
+// 뒤에서부터 배열가져오기
+let lastThrees = evenNumbers.suffix(3)
+
+
+/********
+ Dictionary
+*********/
+
+var scoreDic: [String: Int] = ["Jason": 88, "Jay": 95, "Jake": 98]
+var scoreDic1: Dictionary<String, Int> = ["Jason": 88, "Jay": 95, "Jake": 98]
+
+print(scoreDic)
+scoreDic["Jake"]
+scoreDic["jerry"]
+
+scoreDic.isEmpty
+scoreDic.count
+
+scoreDic["jason"] = 99
+scoreDic["jason"]
+scoreDic["jack"] = 100
+scoreDic["jack"]
+
+scoreDic
+scoreDic["jack"] = nil
+scoreDic
+
+for (name, score) in scoreDic {
+    print("\(name): \(score)")
+}
+//jason: 99
+//Jake: 98
+//Jason: 88
+//Jay: 95
+
+for key in scoreDic.keys {
+    print("key: \(key)")
+}
+//key: jason
+//key: Jake
+//key: Jason
+//key: Jay
+
+// 1. 이름, 직업, 도시에 대해서 본인의 딕셔너리를 만들어보기
+var eunyoungDict = ["name": "Eunyoung", "job": "Student", "city": "Seoul"]
+
+// 2. 도시를 부산으로 업데이트
+eunyoungDict["city"] = "Busan"
+eunyoungDict
+
+// 3. 딕셔너리를 받아서 이름과 도시출력하는 함수 만들기
+func printNameAndCity(dic: [String: String]) {
+    if let name = dic["name"], let city = dic["city"] {
+        print(name, city)
+    } else {
+        print("cannot find")
+    }
+}
+printNameAndCity(dic: eunyoungDict)
+
+
+/********
+ Set
+*********/
+
+var someArray: Array<Int> = [1, 2, 3, 1]
+var someSet: Set<Int> = [1, 2, 3, 1]
+
+someSet.contains(1)
+someSet.contains(99)
+
+someSet.insert(5)
+someSet
+```
+
