@@ -26,7 +26,7 @@ Today I Learned..
 
 ## 3주차 (OOP 기본 개념, Hello World)
 
-* 191118 OOP 기본 개념, 프로퍼티, 메서드
+* 191118 OOP 기본 개념, 프로퍼티, 메서드, [과제: OOP, Class ](https://github.com/eunyuni/TIL/tree/master/191118)
 * 191119 접근제한자, OOP 4대 특성
 * 191121 App LifeCycle / Hello, World
 * 191122 UI Guide  /  Frame,Bounds
