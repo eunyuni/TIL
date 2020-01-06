@@ -45,7 +45,7 @@ Today I Learned..
 * 191203 [Storyboard / Segue](https://github.com/eunyuni/TIL/tree/master/191203/segue)
 * 191204 자습
 * 191205 생성자, 타입 캐스팅 [과제: Type Casting](https://github.com/eunyuni/TIL/tree/master/191205)
-* 191206 UserDefaults, Singleton
+* 191206 UserDefaults, Singleton [ 과제: Singleton, UserDefaults ](https://github.com/eunyuni/TIL/tree/master/191206)
 
 ## 6주차 (ARC, Struct, Delegate, AutoLayout)
 
