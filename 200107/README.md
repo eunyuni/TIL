@@ -2,7 +2,7 @@
 
 ## TouchViewController
 
-![200107Gesture](/Users/eunyuni/Desktop/200107Gesture.png)
+![스크린샷 2020-01-07 오후 6.11.31](https://tva1.sinaimg.cn/large/006tNbRwgy1gao44p79mej316c0u0apz.jpg)
 
 ```swift
 final class TouchViewController: UIViewController {
