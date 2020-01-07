@@ -59,12 +59,14 @@ Today I Learned..
 * 191217 [TableView](https://github.com/eunyuni/TIL/tree/master/191217)
 * 191218 [TableView연습](https://github.com/eunyuni/TIL/tree/master/191218)
 * 191219 TableView Cell
-* 191229 계산기 구현
+* 191220 계산기 구현
 
 ## 8주차(ContainerViewController)
 
-* 191230 [UIAlertController Example, 조건문, 반복문 복습](https://github.com/eunyuni/TIL/tree/master/191230)
-* 121231 [optional, collection 복습](https://github.com/eunyuni/TIL/tree/master/191231)
+* 191223 [UIAlertController Example, 조건문, 반복문 복습](https://github.com/eunyuni/TIL/tree/master/191230)
+* 121224 [optional, collection 복습](https://github.com/eunyuni/TIL/tree/master/191231)
+* 191226 2차 시험(1)
+* 191227 2차 시험(2)
 
 ## 10주차(UIKit Classes, MapKit)
 * 200106 URLScheme / UIImagePicker
