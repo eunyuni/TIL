@@ -70,7 +70,7 @@ Today I Learned..
 
 ## 10주차(UIKit Classes, MapKit)
 * 200106 URLScheme / UIImagePicker
-* 200107 [GestureRecognizer](https://github.com/eunyuni/TIL/tree/master/200107)
+* 200107 [GestureRecognizer](https://github.com/eunyuni/TIL/tree/master/200107), [과제: touchesBegan ](https://github.com/eunyuni/TIL/tree/master/200107/touchesBegan%EA%B3%BC%EC%A0%9C)
 * 200108 자습
 * 200109 Core Location / MapKit
 * 200110 UIScrollView
