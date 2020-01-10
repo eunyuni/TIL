@@ -26,7 +26,6 @@ import UIKit
  참고: delegate 메서드 중 regionDidChangeAnimated 메서드 참고
  *****************************/
 
-
 class AnnotationHomeworkViewController: UIViewController {
   
   @IBOutlet private weak var mapView: MKMapView!
@@ -35,6 +34,7 @@ class AnnotationHomeworkViewController: UIViewController {
   var address: String = ""
   var line: CLLocationCoordinate2D?
   
+  // 뷰가보여질때 UISearchController설정, searchBar.delegate설정, navigationitem설정
   override func viewDidLoad() {
     super.viewDidLoad()
     let search = UISearchController(searchResultsController: nil)
@@ -42,6 +42,7 @@ class AnnotationHomeworkViewController: UIViewController {
     navigationItem.searchController = search
   }
   
+  // setRegion -> 위치이동애니메이션, 행선지어노테이션, 폴리스라인글려주고, 이동선함수 실행
   func setRegion(coordinate: CLLocationCoordinate2D) {
     let span = MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
     let region = MKCoordinateRegion(center: coordinate, span: span)
@@ -71,6 +72,7 @@ class AnnotationHomeworkViewController: UIViewController {
     self.line = center
   }
   
+  // addAnnotation -> 현재의 행선지와 전의행선지 사이의 라인을 그려줌
   func addAnnotation(center1: CLLocationCoordinate2D) {
     guard let center = line else { return }
     
@@ -79,6 +81,7 @@ class AnnotationHomeworkViewController: UIViewController {
     mapView.addOverlay(polyline)
   }
 
+  // geocodeAddressString -> 주소를 위경도로 바꿔서 값을 setRegion함수에 전달, address에 장소이름 저장
   func geocodeAddressString(_ addressString: String) {
     print("\n---------- [ 주소 -> 위경도 ] ----------")
     let geocoder = CLGeocoder()
@@ -115,17 +118,11 @@ extension AnnotationHomeworkViewController: MKMapViewDelegate {
   }
 }
 
-
-
+// UISearchBarDelegate확장 -> searchBar의 검색완료시 주소를위경도로 바꿔주는 함수에 전달
 extension AnnotationHomeworkViewController: UISearchBarDelegate {
   func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
     guard let search1 = searchBar.text else { return }
-    geocodeAddressString(search1)
-    //  func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
-    //    <#code#>
-    //  }
-    
-    
+    geocodeAddressString(search1) 
   }
 }
 ```
