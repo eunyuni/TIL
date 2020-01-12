@@ -20,7 +20,7 @@ Today I Learned..
 
 * 191111 조건문, 반복문, 제어 이전, [과제: 조건문, 반복문](https://github.com/eunyuni/TIL/tree/master/191111)
 * 191112 (자습)함수과제
-* 191113 [과제: Collection Type](https://github.com/eunyuni/TIL/tree/master/191113)
+* 191113 과제: [Collection Type](https://github.com/eunyuni/TIL/tree/master/191113)
 * 191114 Enumeration, 옵셔널[과제: Enum,Optional](https://github.com/eunyuni/TIL/tree/master/191114)
 * 191115 Code Snippet, Closure 기초, QnA [Closure예시](https://github.com/eunyuni/TIL/tree/master/191115)
 
@@ -45,7 +45,7 @@ Today I Learned..
 * 191203 [Storyboard / Segue](https://github.com/eunyuni/TIL/tree/master/191203/segue)
 * 191204 자습
 * 191205 생성자, 타입 캐스팅 [과제: Type Casting](https://github.com/eunyuni/TIL/tree/master/191205)
-* 191206 UserDefaults, Singleton [ 과제: Singleton, UserDefaults ](https://github.com/eunyuni/TIL/tree/master/191206)
+* 191206 UserDefaults, Singleton, 과제: [Singleton, UserDefaults ](https://github.com/eunyuni/TIL/tree/master/191206)
 
 ## 6주차 (ARC, Struct, Delegate, AutoLayout)
 
@@ -70,9 +70,9 @@ Today I Learned..
 
 ## 10주차(UIKit Classes, MapKit)
 * 200106 URLScheme / UIImagePicker
-* 200107 [GestureRecognizer](https://github.com/eunyuni/TIL/tree/master/200107), [과제: touchesBegan ](https://github.com/eunyuni/TIL/tree/master/200107/touchesBegan%EA%B3%BC%EC%A0%9C)
+* 200107 [GestureRecognizer](https://github.com/eunyuni/TIL/tree/master/200107), 과제: [touchesBegan ](https://github.com/eunyuni/TIL/tree/master/200107/touchesBegan%EA%B3%BC%EC%A0%9C)
 * 200108 자습
-* 200109 [Core Location / MapKit](https://github.com/eunyuni/TIL/tree/master/200109), [과제: Annotation](https://github.com/eunyuni/TIL/tree/master/200109/%EA%B3%BC%EC%A0%9C)
+* 200109 [Core Location / MapKit](https://github.com/eunyuni/TIL/tree/master/200109), 과제: [Annotation](https://github.com/eunyuni/TIL/tree/master/200109/%EA%B3%BC%EC%A0%9C)
 * 200110 UIScrollView
 
 
