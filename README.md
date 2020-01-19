@@ -77,7 +77,7 @@ Today I Learned..
 
 ## 11주차(애니메이션, Dynamic AutoLayout)
 * 200113 [UIView Animation](https://github.com/eunyuni/TIL/tree/master/200113)
-* 200114 Dynamic AutoLayout
+* 200114 [Dynamic AutoLayout](https://github.com/eunyuni/TIL/tree/master/200114)
 * 200115 자습
 * 200116 Dynamic AutoLayout
 * 200117 1차 해커톤
