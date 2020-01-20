@@ -33,7 +33,7 @@ Today I Learned..
 
 ## 4주차 (UIKit 기본)
 
-* 191125 UIViewController
+* 191125 [UIViewController](https://github.com/eunyuni/TIL/tree/master/191125)
 * 191126 AlertController, UITextField
 * 191127 (자습)
 * 191128 (학습 정리)
