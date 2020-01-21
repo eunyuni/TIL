@@ -82,5 +82,8 @@ Today I Learned..
 * 200116 Dynamic AutoLayout
 * 200117 1차 해커톤
 
+## 12주차(해커톤 리뷰, High-Order Function)
+* 200120 해커톤 리뷰
+* 200121 High-Order Function
 
 
