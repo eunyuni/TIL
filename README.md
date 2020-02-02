@@ -86,4 +86,7 @@ Today I Learned..
 * 200120 해커톤 리뷰
 * 200121 High-Order Function
 
-
+## 13주차(UICollectionView, Error Handling, Logging)
+* 200128 UICollectionView 
+* 200130 UICollectionView (2)
+* 200131 Error Handling / Logging
