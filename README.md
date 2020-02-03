@@ -90,3 +90,7 @@ Today I Learned..
 * 200128 UICollectionView 
 * 200130 UICollectionView (2)
 * 200131 Error Handling / Logging
+
+## 14주차(자료구조, 알고리즘)
+* 200203 자료구조
+* 200204 알고리즘
