@@ -89,7 +89,7 @@ Today I Learned..
 ## 13주차(UICollectionView, Error Handling, Logging)
 * 200128 UICollectionView 
 * 200130 UICollectionView (2)
-* 200131 Error Handling / Logging
+* 200131 Error Handling / [Logging](https://github.com/eunyuni/TIL/tree/master/200131)
 
 ## 14주차(자료구조, 알고리즘)
 * 200203 [자료구조](https://github.com/eunyuni/TIL/tree/master/200203)
