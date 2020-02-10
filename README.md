@@ -94,3 +94,10 @@ Today I Learned..
 ## 14주차(자료구조, 알고리즘)
 * 200203 [자료구조](https://github.com/eunyuni/TIL/tree/master/200203)
 * 200204 [알고리즘](https://github.com/eunyuni/TIL/tree/master/200204)
+* 200206-7 해커톤
+
+## 15주차(UIDevice, GCD / Closure 고급, JSON)
+* 200210 [UIDevice](https://github.com/eunyuni/TIL/tree/master/200210)
+* 200211 GCD / Closure
+* 200213 JSON
+
