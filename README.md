@@ -14,11 +14,11 @@ Today I Learned..
 * 191106 자습 / 
 [1. 함수기본](https://github.com/eunyuni/TIL/tree/master/191106/191106_%ED%95%A8%EC%88%98%EA%B8%B0%EB%B3%B8.playground), [2. 함수고급](https://github.com/eunyuni/TIL/blob/master/191106/191106_%ED%95%A8%EC%88%98%EA%B3%A0%EA%B8%89.playground/Contents.swift)
 * 191107 사전 지식 체크 / 유틸리티 설치 / 조 구성
-* 191108 자료형, 기본 연산자, 함수, [함수과제](https://github.com/eunyuni/TIL/tree/master/191108)
+* 191108 [자료형, 기본 연산자, 함수](https://github.com/eunyuni/TIL/tree/master/191108), [함수과제](https://github.com/eunyuni/TIL/tree/master/191108)
 
 ## 2주차 (Swift 기초 문법)
 
-* 191111 조건문, 반복문, 제어 이전, [과제: 조건문, 반복문](https://github.com/eunyuni/TIL/tree/master/191111)
+* 191111 [조건문, 반복문, 제어 이전](https://github.com/eunyuni/TIL/tree/master/191111), [과제: 조건문, 반복문](https://github.com/eunyuni/TIL/tree/master/191111)
 * 191112 (자습)함수과제
 * 191113 과제: [Collection Type](https://github.com/eunyuni/TIL/tree/master/191113)
 * 191114 Enumeration, 옵셔널[과제: Enum,Optional](https://github.com/eunyuni/TIL/tree/master/191114)
