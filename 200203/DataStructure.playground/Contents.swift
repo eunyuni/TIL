@@ -79,3 +79,7 @@ singleLinked.push(node: Node(value: "C"))
 singleLinked.size
 singleLinked.pop()
 singleLinked.peek()
+
+
+let temp2 = ["1", "2", "3", "4", "5", "A", "B", "C", "D"]
+print(temp2.map{Int($0)}.compactMap{$0}.map{$0 * $0}.reduce(0){ $0 + $1 })
