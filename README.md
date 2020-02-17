@@ -21,7 +21,7 @@ Today I Learned..
 * 191111 [조건문, 반복문, 제어 이전](https://github.com/eunyuni/TIL/tree/master/191111), [과제: 조건문, 반복문](https://github.com/eunyuni/TIL/tree/master/191111)
 * 191112 (자습)함수과제
 * 191113 Collection Type, [과제: Collection Type](https://github.com/eunyuni/TIL/tree/master/191113)
-* 191114 Enumeration, 옵셔널[과제: Enum,Optional](https://github.com/eunyuni/TIL/tree/master/191114)
+* 191114 [Enumeration](https://github.com/eunyuni/TIL/blob/master/191114%5BOptional%20%2B%20Enum%5D/Enumerations.playground/Pages/Enumerations.xcplaygroundpage/Contents.swift), [Optionals](https://github.com/eunyuni/TIL/blob/master/191114%5BOptional%20%2B%20Enum%5D/Optional.playground/Pages/Optionals.xcplaygroundpage/Contents.swift), [과제: Enum,Optional](https://github.com/eunyuni/TIL/tree/master/191114)
 * 191115 Code Snippet, [Closure 기초](https://github.com/eunyuni/TIL/blob/master/191115%5BCode%20Snippet%2C%20Closure%20%EA%B8%B0%EC%B4%88%5D/Closure.playground/Pages/Closure.xcplaygroundpage/Contents.swift), QnA [Closure예시](https://github.com/eunyuni/TIL/tree/master/191115)
 
 ## 3주차 (OOP 기본 개념, Hello World)
