@@ -96,8 +96,15 @@ Today I Learned..
 * 200204 [알고리즘](https://github.com/eunyuni/TIL/tree/master/200204)
 * 200206-7 해커톤
 
-## 15주차(UIDevice, GCD / Closure 고급, JSON)
+## 15주차(UIDevice, GCD / Closure 고급, URL)
 * 200210 [UIDevice](https://github.com/eunyuni/TIL/tree/master/200210)
 * 200211 GCD / Closure
-* 200213 JSON
+* 200213 GCD, URL Loading System
+
+## 16주차(JSON, Codable,Dependency Manager, Postman, Alamofire)
+* 200217 JSON
+* 200218 Codable
+* 200220 Dependency Manager
+* 200221 Postman, Alamofire
+
 
