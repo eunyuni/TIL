@@ -106,5 +106,6 @@ Today I Learned..
 * 200218 Codable
 * 200220 Dependency Manager
 * 200221 Postman, Alamofire
+* 200222 [Josn Practice](https://github.com/eunyuni/TIL/tree/master/200222%5BJsonPractice%5D)
 
 
