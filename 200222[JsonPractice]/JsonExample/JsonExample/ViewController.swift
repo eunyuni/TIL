@@ -40,6 +40,8 @@ class ViewController: UIViewController {
     do {
       let test = try decoder.decode(Test.self, from: jsonDataTest)
       print(test)
+      print("test.nickname:" ,test.nickname)
+      dump(test)
     } catch {
       print(error.localizedDescription)
     }
