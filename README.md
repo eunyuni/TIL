@@ -102,7 +102,7 @@ Today I Learned..
 * 200213 GCD, URL Loading System
 
 ## 16주차(JSON, Codable,Dependency Manager, Postman, Alamofire)
-* 200217 JSON
+* 200217 [JSON](https://github.com/eunyuni/TIL/tree/master/200217%5BJSON%5D)
 * 200218 Codable
 * 200220 Dependency Manager
 * 200221 Postman, Alamofire
