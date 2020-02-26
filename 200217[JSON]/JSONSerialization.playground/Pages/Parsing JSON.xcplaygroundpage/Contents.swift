@@ -7,6 +7,7 @@ import Foundation
  ## Basic
  ---
  */
+// Parsing = 데이터를 원하는 값으로 쪼개서 사용하는것
 
 let jsonData1 = """
 {
@@ -17,6 +18,7 @@ let jsonData1 = """
 """.data(using: .utf8)!
 
 if let json = try? JSONSerialization.jsonObject(with: jsonData1) as? [String: String],
+  //jsonObject로 변환을하는데 any타입으로 나오기 때문에 필요한 타입으로 타입캐스팅을 진행해줌
   let greeting = json["greeting"],
   let foo = json["foo"],
   let iOS = json["iOS"] {
@@ -36,7 +38,7 @@ let jsonData2 = """
 """.data(using: .utf8)!
 
 if let json = try? JSONSerialization.jsonObject(with: jsonData2) as? [String: Any],
-  let greeting = json["greeting"] as? String, // 값을꺼낼때도 타입캐스팅을 거쳐야함
+  let greeting = json["greeting"] as? String, // 값을꺼낼때도 타입캐스팅을 거쳐야함(Any이기때문)
   let iOS = json["iOS"] as? Bool,
   let version = json["SwiftVersion"] as? Int {
   print("\n---------- [ JSON Parsing (2) ] ----------\n")
@@ -46,6 +48,9 @@ if let json = try? JSONSerialization.jsonObject(with: jsonData2) as? [String: An
 }
 
 //[{:},{:}]
+// jsondata볼때 가장먼저 봐야할 것
+// [ 배열인지
+// { 딕셔너리인지
 let jsonData3 = """
 [
   {
@@ -73,7 +78,7 @@ if let jsonObjects = try? JSONSerialization.jsonObject(with: jsonData3) as? [[St
       let name = json["name"] as? String,
       let email = json["email"] as? String,
       let body = json["body"] as? String {
-      print(postId, id, name, email, body)
+      print("\n postId:" ,postId, "id:", id,"name:", name,"email:", email,"body:", body)
     }
   }
 }
@@ -100,24 +105,25 @@ struct Astronaut {
 }
 
 let dataTask = URLSession.shared.dataTask(with: apiURL) { (data, response, error) in
+
   guard error == nil else { return print(error!) }
   guard let response = response as? HTTPURLResponse,
     (200..<400).contains(response.statusCode)
     else { return print("Invalid response") }
   guard let data = data else { return }
-  
+
   // 코드 구현
   guard let jsonObject = try? JSONSerialization.jsonObject(with: data) as? [String: Any] else { return }
   print("jsonObject :", jsonObject)
-  
+
   guard (jsonObject["message"] as? String) == "success",
     let people = jsonObject["people"] as? [[String: String]],
     let peopleCount = jsonObject["number"] as? Int
     else { return print("Parsing Error") }
-  
+
   print("\n---------- [ Parsing Success ] ----------\n")
   print("총 \(peopleCount)명의 우주비행사가 탑승 중입니다.")
-  
+
   print("= 우주비행사 명단 =")
   people
     .compactMap {
@@ -127,13 +133,36 @@ let dataTask = URLSession.shared.dataTask(with: apiURL) { (data, response, error
       return nil
   }
   .forEach { print($0) }
-  
+
 }
 
 dataTask.resume()
 
 
 
+//print("\n---------- [ Practice - 1 ] ----------\n")
+//
+//let astronauts1 = "http://api.open-notify.org/astros.json"  // 우주비행사 정보
+//let apiURL1 = URL(string: astronauts1)!
+//
+//struct Astronaut1 {
+//  let craft: String
+//  let name: String
+//}
+//
+//let dataTask1 = URLSession.shared.dataTask(with: apiURL1) { (data, response, error) in
+//  guard error == nil else { return print(error!) }
+//  guard let response = response as? HTTPURLResponse,
+//    (200...300).contains(response.statusCode) else { return print("response err~")}
+//  guard let data = data else { return }
+//
+//  guard let json1 = try? JSONSerialization.jsonObject(with: data) as? [String:Any] else { return print("뭬렁")}
+//
+//  print(json1)
+//
+//}
+//
+//dataTask1.resume()
 
 
 
