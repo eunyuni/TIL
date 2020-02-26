@@ -99,7 +99,7 @@ Today I Learned..
 ## 15주차(UIDevice, GCD / Closure 고급, URL)
 * 200210 [UIDevice](https://github.com/eunyuni/TIL/tree/master/200210)
 * 200211 GCD / Closure
-* 200213 GCD, URL Loading System
+* 200213 GCD, [URL Loading System](https://github.com/eunyuni/TIL/tree/master/200213%5BURL%20Loading%20System%5D)
 
 ## 16주차(JSON, Codable,Dependency Manager, Postman, Alamofire)
 * 200217 [JSON](https://github.com/eunyuni/TIL/tree/master/200217%5BJSON%5D)
