@@ -109,4 +109,5 @@ Today I Learned..
 * 200222 [Josn Practice](https://github.com/eunyuni/TIL/tree/master/200222%5BJsonPractice%5D)
 
 ## 17주차
-
+* 200224-200227 날씨 정보 앱 실습
+* 200228 iTunes MusicPlayer
