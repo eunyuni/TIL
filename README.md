@@ -109,8 +109,9 @@ Today I Learned..
 * 200222 [Josn Practice](https://github.com/eunyuni/TIL/tree/master/200222%5BJsonPractice%5D)
 
 ## 17주차
-* 200224-200227 날씨 정보 앱 실습
+* 200224-200227 [날씨 정보 앱 실습](https://github.com/eunyuni/TIL/tree/master/200224%5BWeatherForecast%5D)
 * 200228 iTunes MusicPlayer
 
 ## 19주차
+* 200306 [FireBase Test](https://github.com/eunyuni/TIL/tree/master/200306%5BFireBase%20Test%5D)
 * 200309 - 200313 자체프로젝트
