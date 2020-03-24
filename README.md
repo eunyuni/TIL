@@ -110,7 +110,7 @@ Today I Learned..
 
 ## 17주차
 * 200224-200227 [날씨 정보 앱 실습](https://github.com/eunyuni/TIL/tree/master/200224%5BWeatherForecast%5D)
-* 200228 iTunes MusicPlayer
+* 200228 [iTunes MusicPlayer](https://github.com/eunyuni/TIL/tree/master/200228%5BiTunesMusicPlayer%5D)
 
 ## 19주차
 * 200306 [FireBase Test](https://github.com/eunyuni/TIL/tree/master/200306%5BFireBase%20Test%5D)
