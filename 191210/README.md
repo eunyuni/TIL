@@ -1,4 +1,8 @@
-# 191210 Delegate
+# 191210 
+
+
+
+## CustomView
 
 * 일부의 기능만 내가 원하는 기능으로 교체해서 사용할 수 있게 커스텀하는 것 
 * 런치타임 시스템부분 -> 커스텀뷰
@@ -96,3 +100,10 @@ class CoustomView: UIView {
 }
 ```
 
+
+
+## Delegate
+
+![delegate1](https://tva1.sinaimg.cn/large/00831rSTgy1gdfmdqndu9j316b0u0152.jpg)
+
+![delegate2](https://tva1.sinaimg.cn/large/00831rSTgy1gdfmdxua9fj316d0u00x1.jpg)
