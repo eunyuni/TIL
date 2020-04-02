@@ -102,8 +102,23 @@ class CoustomView: UIView {
 
 
 
+## Project: DelegateExample
+
+1. customView / protocol
+2. customView상속받아 ViewController에서 사용하기
+3. textField Delegate연결
+
+
+
+## Project: TextDataTransfer (과제 풀이)
+
+- delegate로 구현하여 넘겨받기
+
+
+
+
+
 ## Delegate
 
-![delegate1](https://tva1.sinaimg.cn/large/00831rSTgy1gdfmdqndu9j316b0u0152.jpg)
+![Delegate](https://tva1.sinaimg.cn/large/00831rSTgy1gdfmto3kgej30u02rcaoq.jpg)
 
-![delegate2](https://tva1.sinaimg.cn/large/00831rSTgy1gdfmdxua9fj316d0u00x1.jpg)
