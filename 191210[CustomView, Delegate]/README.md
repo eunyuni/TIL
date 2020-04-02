@@ -120,6 +120,5 @@ class CoustomView: UIView {
 
 ## Delegate
 
+![](https://user-images.githubusercontent.com/57210827/78248971-880e4680-7528-11ea-81df-7f1d078c9f25.png)
 
-
-![Delegate](/Users/eunyuni/Desktop/스크린샷/Delegate.png)
