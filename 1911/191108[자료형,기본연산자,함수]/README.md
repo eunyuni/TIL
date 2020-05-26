@@ -1,4 +1,49 @@
-## 191108 함수과제
+## 191108 Basic(1) / 함수과제
+
+#### Basic(1)
+
+* `Ternary Operator` (삼항 연산자)
+
+```swfit
+// ? 앞의 식이 참일때 트루 : 펄스
+
+a > 0 ? "positive" : "zero or negative"
+
+if a > 0 {
+  "positive"
+} else {
+  "negative"
+}
+
+let contentHeight = 40
+let hasHeader = true
+let rowHeight = contentHeight + (hasHeader ? 50 : 20) // 90
+```
+
+* `Nested Functions` - 외부에는 숨기고 함수 내부에서만 사용할 함수를 중첩하여 사용 가능
+
+```swift
+func chooseStepFunction(backward: Bool, value: Int) -> Int {
+  func stepForward(input: Int) -> Int {
+    return input + 1
+  }
+  func stepBackward(input: Int) -> Int {
+    return input - 1
+  }
+  
+  if backward {
+    return stepBackward(input: value)
+  } else {
+    return stepForward(input: value)
+  }
+}
+```
+
+
+
+
+
+#### 함수과제
 
 * 이름과 나이를 입력 받아 자신을 소개하는 글을 출력하는 함수
 * 정수를 하나 입력받아 2의 배수 여부를 반환하는 함수
