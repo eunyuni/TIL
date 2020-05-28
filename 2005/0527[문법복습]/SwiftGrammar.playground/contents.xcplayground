@@ -4,5 +4,6 @@
         <page name='Collective Types'/>
         <page name='Optional Type'/>
         <page name='Function'/>
+        <page name='Closure'/>
     </pages>
 </playground>

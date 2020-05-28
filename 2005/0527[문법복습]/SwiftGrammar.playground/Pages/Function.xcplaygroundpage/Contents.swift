@@ -101,6 +101,7 @@ func pass() -> () -> String {
   return duck
 }
 
+let mjjjj = pass
 let p = pass()
 p()
 
@@ -157,7 +158,7 @@ func calc(operand: sss) -> (Int, Int) -> Int {
 let c2 = calc(operand: .minus)
 c2(10,8)
 
-calc(operand: .times)(29,10)
+let c2_2 = calc(operand: .times)(29,10)
 
 
 
@@ -169,13 +170,91 @@ c4(70,9)
 
 // 3. 함수의 인자값으로 함수를 사용할 수 있음
 
+func incr(param: Int) -> Int {
+  return param + 1
+}
+func broker(base: Int, function fn: (Int) -> Int) -> Int {
+  return fn(base)
+}
+broker(base: 3, function: incr)
+
+func successThrough() {
+  print("연산처리 성공!")
+}
+func failThrough() {
+  print("오류오류발쉥")
+}
+
+func divide(base: Int, success sCallBack: () -> Void, fail fCallBack: () -> Void) -> Int {
+  
+  guard base != 0 else {
+    fCallBack()
+    return 0
+  }
+  
+  defer {   // 코드흐름과 관계없이 가장 마지막에 실행. 함수의 종료직전 실행.
+    sCallBack()
+  }
+  return 100/base
+}
+
+divide(base: 20, success: successThrough, fail: failThrough)
+
+divide(base: 30,
+       success: {
+        () -> Void in
+        print("연산처리썽공!")},
+       fail: {
+        () -> Void in
+        print("오류오류발쉥")})
+
+divide(base: 50,
+       success: { print("연산처리썽공!") },
+       fail: { print("오류오류발쉥") })
+// divide(base: <#T##Int#>, success: <#T##() -> Void#>, fail: <#T##() -> Void#>)
+
+print("\n-------- [중첩 함수] --------\n")
+
+// 내부함수 호출
+func outer(base: Int) -> String {
+  
+  func inner(inc: Int) -> String {
+   return "\(inc)를 반환합니다."
+  }
+  let result = inner(inc: base + 10)
+  return result
+}
+
+outer(base: 10)
 
 
+// 반환값으로 내부함수 사용
+func outer(param: Int) -> (Int) -> String {
+  
+  func inner(inc: Int) -> String {
+    return "\(inc)를 리턴합니다."
+  }
+  return inner
+}
+
+//let fn55 = outer
+let fn5 = outer(param: 30)
+let fn6 = fn5(30)
 
 
+func basic(param: Int) -> (Int) -> Int {
+  let value = param + 20
+  
+  func append(add: Int) -> Int {
+    print("append 실행 값은 \(value + add)")
+    return value + add
+  }
+  
+  return append
+}
 
-
-
+let fn7 = basic(param: 30)
+fn7(70)
 
 
 
