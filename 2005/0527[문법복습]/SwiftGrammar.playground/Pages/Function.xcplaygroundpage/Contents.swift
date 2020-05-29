@@ -240,7 +240,7 @@ func outer(param: Int) -> (Int) -> String {
 //let fn55 = outer
 let fn5 = outer(param: 30)
 let fn6 = fn5(30)
-
+fn5(40)
 
 func basic(param: Int) -> (Int) -> Int {
   let value = param + 20

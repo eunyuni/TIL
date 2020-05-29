@@ -65,7 +65,7 @@ value.sort { (s1, s2) in return s1 > s2 }
 value.sort { return $0 > $1 }
 value.sort { $0 > $1 }
 value.sort(by: >)
-
+//value.sort { > }
 
 func divide(base: Int, success s: () -> Void) -> Int {
   defer {
