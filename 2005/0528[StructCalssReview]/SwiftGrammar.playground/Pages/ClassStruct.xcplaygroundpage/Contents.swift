@@ -341,7 +341,72 @@ print("\n-------- [타입캐스팅] --------\n")
 
 print("\n-------- [초기화 구문] --------\n")
 
+struct Resolution1 {
+  var width = 0
+  var height = 0
+  
+  init(width: Int) {
+    self.width = width
+  }
+}
+
+class VideoMode1 {
+  
+  var resolution = Resolution1(width: 2048)
+  var interlaced = false
+  var frameRate = 0.0
+  var name : String?
+  
+  init() {
+    
+  }
+  
+  init(name: String) {
+    self.name = name
+  }
+  
+  init(interlaced: Bool) {
+    self.interlaced = interlaced
+  }
+  
+  init(interlaced: Bool, frameRate: Double) {
+    self.interlaced = interlaced
+    self.frameRate = frameRate
+  }
+}
+
+let resolution1 = Resolution1.init(width: 40978)
+let videoMode1 = VideoMode1.init(interlaced: true, frameRate: 40.0)
+//let videoMode2 = VideoMode1(interlaced: <#T##Bool#>, frameRate: <#T##Double#>)
+let videoMode3 = VideoMode1()
+let vi = VideoMode1()
+
+
 print("\n-------- [옵셔널 체인] --------\n")
+
+struct Human {
+  var name: String
+  var man: Bool
+}
+
+struct Company {
+  var ceo: Human?
+  var companyName: String?
+  func getCEO() -> Human? {
+    return self.ceo
+  }
+}
+
+var someCompany: Company? = Company(ceo: Human(name: "Mari", man: false), companyName: "Apple")
+let name = someCompany?.getCEO()?.name
+if name != nil {
+  print("대표의 이름은 \(name!)")
+}
+
+
+
+
+
 
 
 //: [Next](@next)

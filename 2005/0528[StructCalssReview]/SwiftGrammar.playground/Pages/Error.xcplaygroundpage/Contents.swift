@@ -2,6 +2,6 @@
 
 import Foundation
 
-var str = "Hello, playground"
+print("\n-------- [Error..] --------\n")
 
 //: [Next](@next)
