@@ -6,8 +6,10 @@ target 'RxswiftExample' do
   use_frameworks!
 
   # Pods for RxswiftExample
-  
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'SnapKit'
+  pod 'NSObject+Rx'
+  pod 'Then'
 
 end

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		E709EBCC249B760A0005E199 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E709EBCA249B760A0005E199 /* Main.storyboard */; };
 		E709EBCE249B760E0005E199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E709EBCD249B760E0005E199 /* Assets.xcassets */; };
 		E709EBD1249B760E0005E199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E709EBCF249B760E0005E199 /* LaunchScreen.storyboard */; };
+		E70B7F4624AF407E00BA713A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70B7F4524AF407E00BA713A /* Product.swift */; };
+		E70B7F4824AF44ED00BA713A /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70B7F4724AF44ED00BA713A /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E709EBCD249B760E0005E199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E709EBD0249B760E0005E199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E709EBD2249B760E0005E199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70B7F4524AF407E00BA713A /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E70B7F4724AF44ED00BA713A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,6 @@
 				780437C1C0D64805C5B77A5A /* Pods-RxswiftExample.debug.xcconfig */,
 				4E3E36A76B9EA0A3334950D4 /* Pods-RxswiftExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,6 +87,8 @@
 				E709EBC4249B760A0005E199 /* AppDelegate.swift */,
 				E709EBC6249B760A0005E199 /* SceneDelegate.swift */,
 				E709EBC8249B760A0005E199 /* ViewController.swift */,
+				E70B7F4724AF44ED00BA713A /* CustomTableViewCell.swift */,
+				E70B7F4524AF407E00BA713A /* Product.swift */,
 				E709EBCA249B760A0005E199 /* Main.storyboard */,
 				E709EBCD249B760E0005E199 /* Assets.xcassets */,
 				E709EBCF249B760E0005E199 /* LaunchScreen.storyboard */,
@@ -208,6 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E709EBC9249B760A0005E199 /* ViewController.swift in Sources */,
+				E70B7F4824AF44ED00BA713A /* CustomTableViewCell.swift in Sources */,
+				E70B7F4624AF407E00BA713A /* Product.swift in Sources */,
 				E709EBC5249B760A0005E199 /* AppDelegate.swift in Sources */,
 				E709EBC7249B760A0005E199 /* SceneDelegate.swift in Sources */,
 			);
